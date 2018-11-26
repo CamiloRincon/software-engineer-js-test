@@ -11,7 +11,7 @@ body {
 }
 
 .column {
-  width: 48%;
+  width: 1440px;
   margin: .5%;
   border: 1px solid #000;
   vertical-align: top;
@@ -20,6 +20,7 @@ body {
     float: left;
   }
   &.right {
+    width: 380px;
     float: right;
   }
 }
@@ -34,5 +35,6 @@ body {
   p {
     margin: 0;
     padding: 0;
+    word-break: break-all;
   }
 }

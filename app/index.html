@@ -16,13 +16,20 @@
             <fieldset>
                 <label for="fileSelector">Select an Image file</label>
                 <input type="file" id="fileSelector" />
+                <button id="import">Import existing configuration</button>
             </fieldset>
         </form>
         <div class="column left">
-            <div id="imageContainer">
-                <!-- will hold photos -->
-            </div>
+            <canvas id="canvasAlbelli" width="1440" height="960"></canvas>
+
             <button id="generateButton">Generate!</button>
+            <button id="scale_up">scale up</button>
+            <button id="scale_down">scale down</button>
+            <button id="translate_left">move left</button>
+            <button id="translate_right">move right</button>
+            <button id="translate_up">move up</button>
+            <button id="translate_down">move down</button>
+            <button id="reset">reset</button>
         </div>
         <div class="column right">
             <div id="debugContainer">
